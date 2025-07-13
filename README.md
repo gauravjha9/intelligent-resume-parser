@@ -1,7 +1,5 @@
 # intelligent-resume-parser
 
-# Intelligent Resume Parser
-
 This is a simple web app that reads resumes (PDF or DOCX) and gives a clean, structured JSON output with all important details like name, email, phone, skills, work experience, education, etc.
 
 It uses:
@@ -43,13 +41,13 @@ pip install -r requirements.txt
 
 ### 3. Setup .env file
 
-APP_NAME="Intelligent Resume Parser"
-APP_ENV=development
-APP_DEBUG=True
-APP_VERSION=1.0.0
-API_VERSION=v1
+- APP_NAME="Intelligent Resume Parser"
+- APP_ENV=development
+- APP_DEBUG=True
+- APP_VERSION=1.0.0
+- API_VERSION=v1
 
-GROQ_API_KEY=<your-api-key>
+- GROQ_API_KEY=<your-api-key>
 
 
 ### 4. Start FastAPI Server
@@ -59,9 +57,6 @@ fastapi dev
 
 ### 5. Frontend
 1. Open frontend/index.html in your browser.
-
 2. Choose a resume file (PDF or DOCX).
-
 3. Click upload.
-
 4. JSON response will appear below.
