@@ -1,0 +1,23 @@
+# Environment Variable Management
+python-dotenv
+
+
+# FastAPI
+fastapi[standard]
+uvicorn
+pydantic
+pydantic-settings
+
+
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain-groq
+
+
+# Document Extract
+pdfplumber
+python-docx
+PyMuPDF
